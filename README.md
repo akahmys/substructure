@@ -39,7 +39,7 @@ ChatGPTなど、チャット画面だけでファイルを操作できないAI�
 用途に合わせて、以下のURLを使ってください。
 
 * **基本バージョン**（開発・リサーチ・一般プロジェクト向け）
-`https://raw.githubusercontent.com/[あなたのGitHubユーザー名]/Substructure/main/agents/basic.md`
+`https://raw.githubusercontent.com/akahmys/substructure/refs/heads/main/basic.md`
 
 * その他は作成中
 
