@@ -60,12 +60,11 @@ ChatGPTなど、ファイルを操作できないチャット画面だけのAI�
 `https://raw.githubusercontent.com/akahmys/substructure/refs/heads/main/instructions/frontend.md`
 
 * **その他**
+  AIエージェントに次の指示をしてください。
 
-AIエージェントに次の指示をしてください。
-
-```text
-[ここに指示書URL] これを参考に [ここにプロジェクトの概要] 向けに準備して。
-```
+  ```text
+  [ここに指示書URL] これを参考に [ここにプロジェクトの概要] 向けに準備して。
+  ```
 
 ---
 
