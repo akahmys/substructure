@@ -59,7 +59,13 @@ ChatGPTなど、ファイルを操作できないチャット画面だけのAI�
 * **Webフロントエンド開発バージョン**（React・Next.js・Vue・Vite等、UI/UX開発向け）
 `https://raw.githubusercontent.com/akahmys/substructure/refs/heads/main/instructions/frontend.md`
 
-* その他は作成中
+* **その他**
+
+AIエージェントに次の指示をしてください。
+
+```text
+[ここに指示書URL] これを参考に [ここにプロジェクトの概要] 向けに準備して。
+```
 
 ---
 
