@@ -16,7 +16,7 @@ ChatGPTなど、ファイルを操作できないチャット画面だけのAI�
 
 ## 開発の背景
 
-巷にあふれる「超入門」を読んで、いちいちコピペしたり、フォルダをちまちま作成するのは、最も遠回りなAI活用法です。
+巷にあふれる「AI超入門」を読んで、いちいちコピペしたり、フォルダをちまちま作成するのは、最も遠回りなAI活用法です。
 
 ---
 
@@ -28,10 +28,16 @@ ChatGPTなど、ファイルを操作できないチャット画面だけのAI�
 [ここに指示書URL] この通りに準備して。
 ```
 
-作業に合わせて「⚪︎⚪︎のルールを××に変更したい」ということがあれば、AIエージェントに次の指示をしてください。
+自分の作業に合わせて変更したいことがあれば、AIエージェントに次の指示をしてください。
 
 ```text
-⚪︎⚪︎のルールを××に変更して。
+[ここに変更したいこと] して。
+```
+
+ここまでの説明でわからないことがあれば、AIエージェントに以下の質問をしてください。
+
+```text
+[ここにわからないこと] って何？どうすればいい？
 ```
 
 ### 指示書URL
@@ -39,7 +45,19 @@ ChatGPTなど、ファイルを操作できないチャット画面だけのAI�
 用途に合わせて、以下のURLを使ってください。
 
 * **基本バージョン**（開発・リサーチ・一般プロジェクト向け）
-`https://raw.githubusercontent.com/akahmys/substructure/refs/heads/main/basic.md`
+`https://raw.githubusercontent.com/akahmys/substructure/refs/heads/main/instructions/basic.md`
+
+* **執筆・コンテンツ制作バージョン**（ブログ・小説・技術記事・ドキュメント作成向け）
+`https://raw.githubusercontent.com/akahmys/substructure/refs/heads/main/instructions/writing.md`
+
+* **ビジネス文章・ドキュメント作成バージョン**（稟議書・報告書・提案書・社内文書向け）
+`https://raw.githubusercontent.com/akahmys/substructure/refs/heads/main/instructions/business-writing.md`
+
+* **学術論文・研究レポート作成バージョン**（論文執筆、学会発表、大学のレポート作成向け）
+`https://raw.githubusercontent.com/akahmys/substructure/refs/heads/main/instructions/academic.md`
+
+* **Webフロントエンド開発バージョン**（React・Next.js・Vue・Vite等、UI/UX開発向け）
+`https://raw.githubusercontent.com/akahmys/substructure/refs/heads/main/instructions/frontend.md`
 
 * その他は作成中
 
